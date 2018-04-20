@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b87883a796ed18242a27d81ca526893b
+timeCreated: 1508753799
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Curse Casual
+  fontNames:
+  - Curse Casual
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

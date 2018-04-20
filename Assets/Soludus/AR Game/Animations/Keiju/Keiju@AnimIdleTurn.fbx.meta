@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: 6da0825088cc0b543b1b87d4290ba92d
+timeCreated: 1486974161
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: keijurig17:Ctrl_Arm_L_1
+    100004: keijurig17:Ctrl_Arm_L_2
+    100006: keijurig17:Ctrl_Arm_L_2 1
+    100008: keijurig17:Ctrl_Arm_R_1
+    100010: keijurig17:Ctrl_Arm_R_2
+    100012: keijurig17:Ctrl_Arm_R_2 1
+    100014: keijurig17:CTRL_Chest
+    100016: keijurig17:CTRL_Hat_Top
+    100018: keijurig17:CTRL_Head
+    100020: keijurig17:Ctrl_Leg_L
+    100022: keijurig17:Ctrl_Leg_R
+    100024: keijurig17:CTRL_ROOT
+    100026: keijurig17:Ctrl_Waist
+    100028: keijurig17:Grp_Arm_L
+    100030: keijurig17:Grp_Arm_R
+    100032: keijurig17:Grp_Leg_L
+    100034: keijurig17:Grp_Leg_R
+    100036: keijurig17:JntBnd_arm1
+    100038: keijurig17:JntBnd_arm2
+    100040: keijurig17:JntBnd_arm3
+    100042: keijurig17:JntBnd_arm4
+    100044: keijurig17:JntBnd_arm5
+    100046: keijurig17:JntBnd_arm6
+    100048: keijurig17:JntBnd_Eye_L
+    100050: keijurig17:JntBnd_Eye_L1
+    100052: keijurig17:JntBnd_Flap1_L
+    100054: keijurig17:JntBnd_Flap1_L1
+    100056: keijurig17:JntBnd_Flap2_L
+    100058: keijurig17:JntBnd_Flap2_L1
+    100060: keijurig17:JntBnd_Hat1
+    100062: keijurig17:JntBnd_Hat2
+    100064: keijurig17:JntBnd_Hat3
+    100066: keijurig17:JntBnd_Head
+    100068: keijurig17:JntBnd_pelvis
+    100070: keijurig17:JntBnd_ROOT
+    100072: keijurig17:jntBnd_wing_L
+    100074: keijurig17:jntBnd_wing_L1
+    100076: keijurig17:JntEnd_arm
+    100078: keijurig17:JntEnd_arm1
+    100080: keijurig17:jntEnd_Eye_L
+    100082: keijurig17:jntEnd_Eye_L1
+    100084: keijurig17:JntEnd_Flap_L
+    100086: keijurig17:JntEnd_Flap_L1
+    100088: keijurig17:JntEnd_Hat
+    100090: keijurig17:jntEnd_Wing_L
+    100092: keijurig17:jntEnd_Wing_L1
+    100094: keijurig17:joint1
+    100096: keijurig17:joint2
+    100098: keijurig17:joint3
+    100100: keijurig17:joint4
+    100102: keijurig17:joint5
+    100104: keijurig17:joint6
+    100106: keijurig17:joint8
+    100108: keijurig17:joint9
+    100110: keijurig17:Keiju_Skeleton
+    400000: //RootNode
+    400002: keijurig17:Ctrl_Arm_L_1
+    400004: keijurig17:Ctrl_Arm_L_2
+    400006: keijurig17:Ctrl_Arm_L_2 1
+    400008: keijurig17:Ctrl_Arm_R_1
+    400010: keijurig17:Ctrl_Arm_R_2
+    400012: keijurig17:Ctrl_Arm_R_2 1
+    400014: keijurig17:CTRL_Chest
+    400016: keijurig17:CTRL_Hat_Top
+    400018: keijurig17:CTRL_Head
+    400020: keijurig17:Ctrl_Leg_L
+    400022: keijurig17:Ctrl_Leg_R
+    400024: keijurig17:CTRL_ROOT
+    400026: keijurig17:Ctrl_Waist
+    400028: keijurig17:Grp_Arm_L
+    400030: keijurig17:Grp_Arm_R
+    400032: keijurig17:Grp_Leg_L
+    400034: keijurig17:Grp_Leg_R
+    400036: keijurig17:JntBnd_arm1
+    400038: keijurig17:JntBnd_arm2
+    400040: keijurig17:JntBnd_arm3
+    400042: keijurig17:JntBnd_arm4
+    400044: keijurig17:JntBnd_arm5
+    400046: keijurig17:JntBnd_arm6
+    400048: keijurig17:JntBnd_Eye_L
+    400050: keijurig17:JntBnd_Eye_L1
+    400052: keijurig17:JntBnd_Flap1_L
+    400054: keijurig17:JntBnd_Flap1_L1
+    400056: keijurig17:JntBnd_Flap2_L
+    400058: keijurig17:JntBnd_Flap2_L1
+    400060: keijurig17:JntBnd_Hat1
+    400062: keijurig17:JntBnd_Hat2
+    400064: keijurig17:JntBnd_Hat3
+    400066: keijurig17:JntBnd_Head
+    400068: keijurig17:JntBnd_pelvis
+    400070: keijurig17:JntBnd_ROOT
+    400072: keijurig17:jntBnd_wing_L
+    400074: keijurig17:jntBnd_wing_L1
+    400076: keijurig17:JntEnd_arm
+    400078: keijurig17:JntEnd_arm1
+    400080: keijurig17:jntEnd_Eye_L
+    400082: keijurig17:jntEnd_Eye_L1
+    400084: keijurig17:JntEnd_Flap_L
+    400086: keijurig17:JntEnd_Flap_L1
+    400088: keijurig17:JntEnd_Hat
+    400090: keijurig17:jntEnd_Wing_L
+    400092: keijurig17:jntEnd_Wing_L1
+    400094: keijurig17:joint1
+    400096: keijurig17:joint2
+    400098: keijurig17:joint3
+    400100: keijurig17:joint4
+    400102: keijurig17:joint5
+    400104: keijurig17:joint6
+    400106: keijurig17:joint8
+    400108: keijurig17:joint9
+    400110: keijurig17:Keiju_Skeleton
+    7400000: AnimIdleTurn
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AnimIdleTurn
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: keijurig17:CTRL_ROOT
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:CTRL_Chest
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:CTRL_Chest/keijurig17:CTRL_Head
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:CTRL_Chest/keijurig17:CTRL_Head/keijurig17:CTRL_Hat_Top
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:CTRL_Chest/keijurig17:Grp_Arm_L
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:CTRL_Chest/keijurig17:Grp_Arm_L/keijurig17:Ctrl_Arm_L_1
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:CTRL_Chest/keijurig17:Grp_Arm_L/keijurig17:Ctrl_Arm_L_1/keijurig17:Ctrl_Arm_L_2
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:CTRL_Chest/keijurig17:Grp_Arm_L/keijurig17:Ctrl_Arm_L_1/keijurig17:Ctrl_Arm_L_2/keijurig17:Ctrl_Arm_L_2
+          1
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:CTRL_Chest/keijurig17:Grp_Arm_R
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:CTRL_Chest/keijurig17:Grp_Arm_R/keijurig17:Ctrl_Arm_R_1
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:CTRL_Chest/keijurig17:Grp_Arm_R/keijurig17:Ctrl_Arm_R_1/keijurig17:Ctrl_Arm_R_2
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:CTRL_Chest/keijurig17:Grp_Arm_R/keijurig17:Ctrl_Arm_R_1/keijurig17:Ctrl_Arm_R_2/keijurig17:Ctrl_Arm_R_2
+          1
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:Ctrl_Waist
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:Ctrl_Waist/keijurig17:Grp_Leg_L
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:Ctrl_Waist/keijurig17:Grp_Leg_L/keijurig17:Ctrl_Leg_L
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:Ctrl_Waist/keijurig17:Grp_Leg_R
+        weight: 1
+      - path: keijurig17:CTRL_ROOT/keijurig17:Ctrl_Waist/keijurig17:Grp_Leg_R/keijurig17:Ctrl_Leg_R
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:JntBnd_pelvis
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:JntBnd_pelvis/keijurig17:joint1
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:JntBnd_pelvis/keijurig17:joint1/keijurig17:joint2
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:JntBnd_pelvis/keijurig17:joint1/keijurig17:joint2/keijurig17:joint3
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:JntBnd_pelvis/keijurig17:joint4
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:JntBnd_pelvis/keijurig17:joint4/keijurig17:joint5
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:JntBnd_pelvis/keijurig17:joint4/keijurig17:joint5/keijurig17:joint6
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:JntBnd_arm1
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:JntBnd_arm1/keijurig17:JntBnd_arm2
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:JntBnd_arm1/keijurig17:JntBnd_arm2/keijurig17:JntBnd_arm3
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:JntBnd_arm1/keijurig17:JntBnd_arm2/keijurig17:JntBnd_arm3/keijurig17:JntEnd_arm
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:JntBnd_arm4
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:JntBnd_arm4/keijurig17:JntBnd_arm5
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:JntBnd_arm4/keijurig17:JntBnd_arm5/keijurig17:JntBnd_arm6
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:JntBnd_arm4/keijurig17:JntBnd_arm5/keijurig17:JntBnd_arm6/keijurig17:JntEnd_arm1
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:jntBnd_wing_L
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:jntBnd_wing_L/keijurig17:jntEnd_Wing_L
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:jntBnd_wing_L1
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:jntBnd_wing_L1/keijurig17:jntEnd_Wing_L1
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Eye_L
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Eye_L/keijurig17:jntEnd_Eye_L
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Eye_L1
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Eye_L1/keijurig17:jntEnd_Eye_L1
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Flap1_L
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Flap1_L/keijurig17:JntBnd_Flap2_L
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Flap1_L/keijurig17:JntBnd_Flap2_L/keijurig17:JntEnd_Flap_L
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Flap1_L1
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Flap1_L1/keijurig17:JntBnd_Flap2_L1
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Flap1_L1/keijurig17:JntBnd_Flap2_L1/keijurig17:JntEnd_Flap_L1
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Hat1
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Hat1/keijurig17:JntBnd_Hat2
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Hat1/keijurig17:JntBnd_Hat2/keijurig17:JntBnd_Hat3
+        weight: 1
+      - path: keijurig17:Keiju_Skeleton/keijurig17:JntBnd_ROOT/keijurig17:joint8/keijurig17:joint9/keijurig17:JntBnd_Head/keijurig17:JntBnd_Hat1/keijurig17:JntBnd_Hat2/keijurig17:JntBnd_Hat3/keijurig17:JntEnd_Hat
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

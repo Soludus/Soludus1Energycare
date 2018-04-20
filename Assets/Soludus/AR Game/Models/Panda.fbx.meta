@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 3fc856dfa4f87004880dc38a958742eb
+timeCreated: 1502954471
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: belly_ctrl
+    100002: belly_ctrl_offset
+    100004: Chest_ctrl
+    100006: Chest_ctrl_offset
+    100008: Head
+    100010: head_ctrl
+    100012: head_ctrl_offset
+    100014: Head_tip
+    100016: Jaw
+    100018: Jaw_end
+    100020: L__ear
+    100022: L_ankle
+    100024: L_arm_1
+    100026: L_arm_2
+    100028: L_Arm_ctrl_1
+    100030: L_Arm_ctrl_1 1
+    100032: L_Arm_ctrl_1_offset
+    100034: L_Arm_ctrl_1_offset 1
+    100036: L_Arm_ctrl_2
+    100038: L_Arm_ctrl_2 1
+    100040: L_Arm_ctrl_2_offset
+    100042: L_Arm_ctrl_2_offset 1
+    100044: L_Arm_ctrl_3
+    100046: L_Arm_ctrl_3 1
+    100048: L_Arm_ctrl_3_offset
+    100050: L_Arm_ctrl_3_offset 1
+    100052: L_arm_end
+    100054: L_arms
+    100056: L_ball
+    100058: L_clavicle
+    100060: L_clavicle 1
+    100062: L_clavicle_ctrl
+    100064: L_clavicle_ctrl_offset
+    100066: L_clavicle_ctrl_offset 1
+    100068: L_ear
+    100070: L_ear_ctrl
+    100072: L_ear_ctrl_offset
+    100074: L_ear_tip
+    100076: L_hand
+    100078: L_hip
+    100080: L_knee
+    100082: L_toe_ip
+    100084: master_ctrl
+    100086: otso:Bear
+    100088: //RootNode
+    100090: R__ear
+    100092: R_ankle
+    100094: R_arm_1
+    100096: R_arm_2
+    100098: R_arm_end
+    100100: R_arms
+    100102: R_ball
+    100104: R_clavicle
+    100106: R_clavicle 1
+    100108: R_clavicle_ctrl
+    100110: R_ear
+    100112: R_ear_ctrl
+    100114: R_ear_ctrl_offset
+    100116: R_ear_tip
+    100118: R_hand
+    100120: R_hip
+    100122: R_knee
+    100124: R_toe_ip
+    100126: Root
+    100128: ROOT_ctrl
+    100130: ROOT_ctrl_offset
+    100132: Tail
+    100134: tail_ctrl
+    100136: tail_ctrl_offset
+    100138: tail_tip
+    100140: Torso1
+    100142: Torso_2
+    100144: Torso_3
+    400000: belly_ctrl
+    400002: belly_ctrl_offset
+    400004: Chest_ctrl
+    400006: Chest_ctrl_offset
+    400008: Head
+    400010: head_ctrl
+    400012: head_ctrl_offset
+    400014: Head_tip
+    400016: Jaw
+    400018: Jaw_end
+    400020: L__ear
+    400022: L_ankle
+    400024: L_arm_1
+    400026: L_arm_2
+    400028: L_Arm_ctrl_1
+    400030: L_Arm_ctrl_1 1
+    400032: L_Arm_ctrl_1_offset
+    400034: L_Arm_ctrl_1_offset 1
+    400036: L_Arm_ctrl_2
+    400038: L_Arm_ctrl_2 1
+    400040: L_Arm_ctrl_2_offset
+    400042: L_Arm_ctrl_2_offset 1
+    400044: L_Arm_ctrl_3
+    400046: L_Arm_ctrl_3 1
+    400048: L_Arm_ctrl_3_offset
+    400050: L_Arm_ctrl_3_offset 1
+    400052: L_arm_end
+    400054: L_arms
+    400056: L_ball
+    400058: L_clavicle
+    400060: L_clavicle 1
+    400062: L_clavicle_ctrl
+    400064: L_clavicle_ctrl_offset
+    400066: L_clavicle_ctrl_offset 1
+    400068: L_ear
+    400070: L_ear_ctrl
+    400072: L_ear_ctrl_offset
+    400074: L_ear_tip
+    400076: L_hand
+    400078: L_hip
+    400080: L_knee
+    400082: L_toe_ip
+    400084: master_ctrl
+    400086: otso:Bear
+    400088: //RootNode
+    400090: R__ear
+    400092: R_ankle
+    400094: R_arm_1
+    400096: R_arm_2
+    400098: R_arm_end
+    400100: R_arms
+    400102: R_ball
+    400104: R_clavicle
+    400106: R_clavicle 1
+    400108: R_clavicle_ctrl
+    400110: R_ear
+    400112: R_ear_ctrl
+    400114: R_ear_ctrl_offset
+    400116: R_ear_tip
+    400118: R_hand
+    400120: R_hip
+    400122: R_knee
+    400124: R_toe_ip
+    400126: Root
+    400128: ROOT_ctrl
+    400130: ROOT_ctrl_offset
+    400132: Tail
+    400134: tail_ctrl
+    400136: tail_ctrl_offset
+    400138: tail_tip
+    400140: Torso1
+    400142: Torso_2
+    400144: Torso_3
+    4300000: otso:Bear
+    9500000: //RootNode
+    13700000: otso:Bear
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

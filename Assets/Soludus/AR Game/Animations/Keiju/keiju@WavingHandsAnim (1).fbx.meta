@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: cbf47c0ca1c09fc48a0df6a3a0c68fa9
+timeCreated: 1506511473
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: keijurig17:Ctrl_Arm_L_1
+    100004: keijurig17:Ctrl_Arm_L_2
+    100006: keijurig17:Ctrl_Arm_L_2 1
+    100008: keijurig17:Ctrl_Arm_R_1
+    100010: keijurig17:Ctrl_Arm_R_2
+    100012: keijurig17:Ctrl_Arm_R_2 1
+    100014: keijurig17:CTRL_Chest
+    100016: keijurig17:CTRL_Flap_L_1
+    100018: keijurig17:CTRL_Flap_L_2
+    100020: keijurig17:CTRL_Flap_R_1
+    100022: keijurig17:CTRL_Flap_R_2
+    100024: keijurig17:CTRL_Hat_Top
+    100026: keijurig17:Ctrl_Hat_Top
+    100028: keijurig17:CTRL_Head
+    100030: keijurig17:Ctrl_Leg_L
+    100032: keijurig17:Ctrl_Leg_R
+    100034: keijurig17:CTRL_ROOT
+    100036: keijurig17:Ctrl_Waist
+    100038: keijurig17:Grp_Arm_L
+    100040: keijurig17:Grp_Arm_R
+    100042: keijurig17:Grp_Leg_L
+    100044: keijurig17:Grp_Leg_R
+    100046: keijurig17:JntBnd_arm1
+    100048: keijurig17:JntBnd_arm2
+    100050: keijurig17:JntBnd_arm3
+    100052: keijurig17:JntBnd_arm4
+    100054: keijurig17:JntBnd_arm5
+    100056: keijurig17:JntBnd_arm6
+    100058: keijurig17:JntBnd_Eye_L
+    100060: keijurig17:JntBnd_Eye_L1
+    100062: keijurig17:JntBnd_Flap1_L
+    100064: keijurig17:JntBnd_Flap1_L1
+    100066: keijurig17:JntBnd_Flap2_L
+    100068: keijurig17:JntBnd_Flap2_L1
+    100070: keijurig17:JntBnd_Hat1
+    100072: keijurig17:JntBnd_Hat2
+    100074: keijurig17:JntBnd_Hat3
+    100076: keijurig17:JntBnd_Head
+    100078: keijurig17:JntBnd_pelvis
+    100080: keijurig17:JntBnd_ROOT
+    100082: keijurig17:jntBnd_wing_L
+    100084: keijurig17:jntBnd_wing_L1
+    100086: keijurig17:JntEnd_arm
+    100088: keijurig17:JntEnd_arm1
+    100090: keijurig17:jntEnd_Eye_L
+    100092: keijurig17:jntEnd_Eye_L1
+    100094: keijurig17:JntEnd_Flap_L
+    100096: keijurig17:JntEnd_Flap_L1
+    100098: keijurig17:JntEnd_Hat
+    100100: keijurig17:jntEnd_Wing_L
+    100102: keijurig17:jntEnd_Wing_L1
+    100104: keijurig17:joint1
+    100106: keijurig17:joint2
+    100108: keijurig17:joint3
+    100110: keijurig17:joint4
+    100112: keijurig17:joint5
+    100114: keijurig17:joint6
+    100116: keijurig17:joint8
+    100118: keijurig17:joint9
+    100120: keijurig17:Keiju_Skeleton
+    100122: keijurig17:nurbsCircle2
+    400000: //RootNode
+    400002: keijurig17:Ctrl_Arm_L_1
+    400004: keijurig17:Ctrl_Arm_L_2
+    400006: keijurig17:Ctrl_Arm_L_2 1
+    400008: keijurig17:Ctrl_Arm_R_1
+    400010: keijurig17:Ctrl_Arm_R_2
+    400012: keijurig17:Ctrl_Arm_R_2 1
+    400014: keijurig17:CTRL_Chest
+    400016: keijurig17:CTRL_Flap_L_1
+    400018: keijurig17:CTRL_Flap_L_2
+    400020: keijurig17:CTRL_Flap_R_1
+    400022: keijurig17:CTRL_Flap_R_2
+    400024: keijurig17:CTRL_Hat_Top
+    400026: keijurig17:Ctrl_Hat_Top
+    400028: keijurig17:CTRL_Head
+    400030: keijurig17:Ctrl_Leg_L
+    400032: keijurig17:Ctrl_Leg_R
+    400034: keijurig17:CTRL_ROOT
+    400036: keijurig17:Ctrl_Waist
+    400038: keijurig17:Grp_Arm_L
+    400040: keijurig17:Grp_Arm_R
+    400042: keijurig17:Grp_Leg_L
+    400044: keijurig17:Grp_Leg_R
+    400046: keijurig17:JntBnd_arm1
+    400048: keijurig17:JntBnd_arm2
+    400050: keijurig17:JntBnd_arm3
+    400052: keijurig17:JntBnd_arm4
+    400054: keijurig17:JntBnd_arm5
+    400056: keijurig17:JntBnd_arm6
+    400058: keijurig17:JntBnd_Eye_L
+    400060: keijurig17:JntBnd_Eye_L1
+    400062: keijurig17:JntBnd_Flap1_L
+    400064: keijurig17:JntBnd_Flap1_L1
+    400066: keijurig17:JntBnd_Flap2_L
+    400068: keijurig17:JntBnd_Flap2_L1
+    400070: keijurig17:JntBnd_Hat1
+    400072: keijurig17:JntBnd_Hat2
+    400074: keijurig17:JntBnd_Hat3
+    400076: keijurig17:JntBnd_Head
+    400078: keijurig17:JntBnd_pelvis
+    400080: keijurig17:JntBnd_ROOT
+    400082: keijurig17:jntBnd_wing_L
+    400084: keijurig17:jntBnd_wing_L1
+    400086: keijurig17:JntEnd_arm
+    400088: keijurig17:JntEnd_arm1
+    400090: keijurig17:jntEnd_Eye_L
+    400092: keijurig17:jntEnd_Eye_L1
+    400094: keijurig17:JntEnd_Flap_L
+    400096: keijurig17:JntEnd_Flap_L1
+    400098: keijurig17:JntEnd_Hat
+    400100: keijurig17:jntEnd_Wing_L
+    400102: keijurig17:jntEnd_Wing_L1
+    400104: keijurig17:joint1
+    400106: keijurig17:joint2
+    400108: keijurig17:joint3
+    400110: keijurig17:joint4
+    400112: keijurig17:joint5
+    400114: keijurig17:joint6
+    400116: keijurig17:joint8
+    400118: keijurig17:joint9
+    400120: keijurig17:Keiju_Skeleton
+    400122: keijurig17:nurbsCircle2
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

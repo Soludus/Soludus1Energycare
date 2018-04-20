@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: 1108487049baa184cae860f50c03cd94
+timeCreated: 1481719046
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Back
+    100004: Bear
+    100006: Chest
+    100008: Cube
+    100010: Head
+    100012: L__Foot
+    100014: L_Arm IK Ctrl
+    100016: L_Arm IK Ctrl_end
+    100018: L_Clavicle
+    100020: L_Ear
+    100022: L_Ear_end
+    100024: L_Elbow Target
+    100026: L_Elbow Target_end
+    100028: L_Hand
+    100030: L_Hand_end
+    100032: L_Hip
+    100034: L_IK Ctrl
+    100036: L_IK Ctrl_end
+    100038: L_Kneetarget
+    100040: L_Kneetarget_end
+    100042: L_Lowerarm
+    100044: L_Lowerarm_end
+    100046: L_Lowerleg
+    100048: L_Lowerleg_end
+    100050: L_Shoulder
+    100052: L_Toes
+    100054: L_Toes_end
+    100056: L_Upperarm
+    100058: L_Upperleg
+    100060: Neck
+    100062: //RootNode
+    100064: R__Foot
+    100066: R_Arm IK Ctrl
+    100068: R_Arm IK Ctrl_end
+    100070: R_Clavicle
+    100072: R_Ear
+    100074: R_Ear_end
+    100076: R_Elbow Target
+    100078: R_Elbow Target_end
+    100080: R_Hand
+    100082: R_Hand_end
+    100084: R_Hip
+    100086: R_IK Ctrl
+    100088: R_IK Ctrl_end
+    100090: R_Kneetarget
+    100092: R_Kneetarget_end
+    100094: R_Lowerarm
+    100096: R_Lowerarm_end
+    100098: R_Lowerleg
+    100100: R_Lowerleg_end
+    100102: R_Shoulder
+    100104: R_Toes
+    100106: R_Toes_end
+    100108: R_Upperarm
+    100110: R_Upperleg
+    100112: Waist
+    400000: Armature
+    400002: Back
+    400004: Bear
+    400006: Chest
+    400008: Cube
+    400010: Head
+    400012: L__Foot
+    400014: L_Arm IK Ctrl
+    400016: L_Arm IK Ctrl_end
+    400018: L_Clavicle
+    400020: L_Ear
+    400022: L_Ear_end
+    400024: L_Elbow Target
+    400026: L_Elbow Target_end
+    400028: L_Hand
+    400030: L_Hand_end
+    400032: L_Hip
+    400034: L_IK Ctrl
+    400036: L_IK Ctrl_end
+    400038: L_Kneetarget
+    400040: L_Kneetarget_end
+    400042: L_Lowerarm
+    400044: L_Lowerarm_end
+    400046: L_Lowerleg
+    400048: L_Lowerleg_end
+    400050: L_Shoulder
+    400052: L_Toes
+    400054: L_Toes_end
+    400056: L_Upperarm
+    400058: L_Upperleg
+    400060: Neck
+    400062: //RootNode
+    400064: R__Foot
+    400066: R_Arm IK Ctrl
+    400068: R_Arm IK Ctrl_end
+    400070: R_Clavicle
+    400072: R_Ear
+    400074: R_Ear_end
+    400076: R_Elbow Target
+    400078: R_Elbow Target_end
+    400080: R_Hand
+    400082: R_Hand_end
+    400084: R_Hip
+    400086: R_IK Ctrl
+    400088: R_IK Ctrl_end
+    400090: R_Kneetarget
+    400092: R_Kneetarget_end
+    400094: R_Lowerarm
+    400096: R_Lowerarm_end
+    400098: R_Lowerleg
+    400100: R_Lowerleg_end
+    400102: R_Shoulder
+    400104: R_Toes
+    400106: R_Toes_end
+    400108: R_Upperarm
+    400110: R_Upperleg
+    400112: Waist
+    2300000: Cube
+    3300000: Cube
+    4300000: Cube
+    4300002: Bear
+    7400000: Otso Walk Carry
+    7400002: Object Walk Carry
+    9500000: //RootNode
+    13700000: Bear
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Otso Walk Carry
+      takeName: Armature|ArmatureAction
+      firstFrame: 488
+      lastFrame: 528
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/L__Foot
+        weight: 1
+      - path: Armature/L__Foot/L_Toes
+        weight: 1
+      - path: Armature/L__Foot/L_Toes/L_Toes_end
+        weight: 1
+      - path: Armature/L_Arm IK Ctrl
+        weight: 1
+      - path: Armature/L_Arm IK Ctrl/L_Arm IK Ctrl_end
+        weight: 1
+      - path: Armature/L_Elbow Target
+        weight: 1
+      - path: Armature/L_Elbow Target/L_Elbow Target_end
+        weight: 1
+      - path: Armature/L_Hand
+        weight: 1
+      - path: Armature/L_Hand/L_Hand_end
+        weight: 1
+      - path: Armature/L_IK Ctrl
+        weight: 1
+      - path: Armature/L_IK Ctrl/L_IK Ctrl_end
+        weight: 1
+      - path: Armature/L_Kneetarget
+        weight: 1
+      - path: Armature/L_Kneetarget/L_Kneetarget_end
+        weight: 1
+      - path: Armature/R__Foot
+        weight: 1
+      - path: Armature/R__Foot/R_Toes
+        weight: 1
+      - path: Armature/R__Foot/R_Toes/R_Toes_end
+        weight: 1
+      - path: Armature/R_Arm IK Ctrl
+        weight: 1
+      - path: Armature/R_Arm IK Ctrl/R_Arm IK Ctrl_end
+        weight: 1
+      - path: Armature/R_Elbow Target
+        weight: 1
+      - path: Armature/R_Elbow Target/R_Elbow Target_end
+        weight: 1
+      - path: Armature/R_Hand
+        weight: 1
+      - path: Armature/R_Hand/R_Hand_end
+        weight: 1
+      - path: Armature/R_IK Ctrl
+        weight: 1
+      - path: Armature/R_IK Ctrl/R_IK Ctrl_end
+        weight: 1
+      - path: Armature/R_Kneetarget
+        weight: 1
+      - path: Armature/R_Kneetarget/R_Kneetarget_end
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Back
+        weight: 1
+      - path: Armature/Waist/Back/Chest
+        weight: 1
+      - path: Armature/Waist/Back/Chest/L_Clavicle
+        weight: 1
+      - path: Armature/Waist/Back/Chest/L_Clavicle/L_Shoulder
+        weight: 1
+      - path: Armature/Waist/Back/Chest/L_Clavicle/L_Shoulder/L_Upperarm
+        weight: 1
+      - path: Armature/Waist/Back/Chest/L_Clavicle/L_Shoulder/L_Upperarm/L_Lowerarm
+        weight: 1
+      - path: Armature/Waist/Back/Chest/L_Clavicle/L_Shoulder/L_Upperarm/L_Lowerarm/L_Lowerarm_end
+        weight: 1
+      - path: Armature/Waist/Back/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Back/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Back/Chest/Neck/Head/L_Ear
+        weight: 1
+      - path: Armature/Waist/Back/Chest/Neck/Head/L_Ear/L_Ear_end
+        weight: 1
+      - path: Armature/Waist/Back/Chest/Neck/Head/R_Ear
+        weight: 1
+      - path: Armature/Waist/Back/Chest/Neck/Head/R_Ear/R_Ear_end
+        weight: 1
+      - path: Armature/Waist/Back/Chest/R_Clavicle
+        weight: 1
+      - path: Armature/Waist/Back/Chest/R_Clavicle/R_Shoulder
+        weight: 1
+      - path: Armature/Waist/Back/Chest/R_Clavicle/R_Shoulder/R_Upperarm
+        weight: 1
+      - path: Armature/Waist/Back/Chest/R_Clavicle/R_Shoulder/R_Upperarm/R_Lowerarm
+        weight: 1
+      - path: Armature/Waist/Back/Chest/R_Clavicle/R_Shoulder/R_Upperarm/R_Lowerarm/R_Lowerarm_end
+        weight: 1
+      - path: Armature/Waist/L_Hip
+        weight: 1
+      - path: Armature/Waist/L_Hip/L_Upperleg
+        weight: 1
+      - path: Armature/Waist/L_Hip/L_Upperleg/L_Lowerleg
+        weight: 1
+      - path: Armature/Waist/L_Hip/L_Upperleg/L_Lowerleg/L_Lowerleg_end
+        weight: 1
+      - path: Armature/Waist/R_Hip
+        weight: 1
+      - path: Armature/Waist/R_Hip/R_Upperleg
+        weight: 1
+      - path: Armature/Waist/R_Hip/R_Upperleg/R_Lowerleg
+        weight: 1
+      - path: Armature/Waist/R_Hip/R_Upperleg/R_Lowerleg/R_Lowerleg_end
+        weight: 1
+      - path: Bear
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

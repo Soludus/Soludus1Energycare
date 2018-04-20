@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: de3ec0db4822e0f4d8546203b16ac415
+timeCreated: 1485179397
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: CTRL_ROOT
+    100002: CTRL_water_end
+    100004: CTRL_water_start
+    100006: CTRL_Waterplane
+    100008: Jnt_Faucet_1
+    100010: Jnt_Faucet_2
+    100012: Jnt_Faucet_End
+    100014: Jnt_ROOT
+    100016: Jnt_water_flow_1
+    100018: Jnt_Water_flow_2
+    100020: Jnt_Waterplane
+    100022: JntBnd_Sink
+    100024: //RootNode
+    400000: CTRL_ROOT
+    400002: CTRL_water_end
+    400004: CTRL_water_start
+    400006: CTRL_Waterplane
+    400008: Jnt_Faucet_1
+    400010: Jnt_Faucet_2
+    400012: Jnt_Faucet_End
+    400014: Jnt_ROOT
+    400016: Jnt_water_flow_1
+    400018: Jnt_Water_flow_2
+    400020: Jnt_Waterplane
+    400022: JntBnd_Sink
+    400024: //RootNode
+    7400000: sinkFlow
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: sinkFlow
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 29.899998
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CTRL_ROOT
+        weight: 1
+      - path: CTRL_ROOT/CTRL_water_end
+        weight: 1
+      - path: CTRL_ROOT/CTRL_water_start
+        weight: 1
+      - path: CTRL_ROOT/CTRL_Waterplane
+        weight: 1
+      - path: Jnt_ROOT
+        weight: 1
+      - path: Jnt_ROOT/JntBnd_Sink
+        weight: 1
+      - path: Jnt_ROOT/JntBnd_Sink/Jnt_Faucet_1
+        weight: 1
+      - path: Jnt_ROOT/JntBnd_Sink/Jnt_Faucet_1/Jnt_Faucet_2
+        weight: 1
+      - path: Jnt_ROOT/JntBnd_Sink/Jnt_Faucet_1/Jnt_Faucet_2/Jnt_Faucet_End
+        weight: 1
+      - path: Jnt_ROOT/JntBnd_Sink/Jnt_Faucet_1/Jnt_water_flow_1
+        weight: 1
+      - path: Jnt_ROOT/JntBnd_Sink/Jnt_Faucet_1/Jnt_water_flow_1/Jnt_Water_flow_2
+        weight: 1
+      - path: Jnt_ROOT/JntBnd_Sink/Jnt_Waterplane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

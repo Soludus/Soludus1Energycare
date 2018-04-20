@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 7f6f4a1d9ef0f014cb6f58547ea1f27d
+timeCreated: 1506080240
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: otso_rig_08:Head
+    100004: otso_rig_08:Head_tip
+    100006: otso_rig_08:Jaw
+    100008: otso_rig_08:Jaw_end
+    100010: otso_rig_08:L__ear
+    100012: otso_rig_08:L_ankle
+    100014: otso_rig_08:L_arm_1
+    100016: otso_rig_08:L_arm_2
+    100018: otso_rig_08:L_arm_end
+    100020: otso_rig_08:L_ball
+    100022: otso_rig_08:L_clavicle
+    100024: otso_rig_08:L_ear_tip
+    100026: otso_rig_08:L_hand
+    100028: otso_rig_08:L_hip
+    100030: otso_rig_08:L_knee
+    100032: otso_rig_08:L_toe_ip
+    100034: otso_rig_08:R__ear
+    100036: otso_rig_08:R_ankle
+    100038: otso_rig_08:R_arm_1
+    100040: otso_rig_08:R_arm_2
+    100042: otso_rig_08:R_arm_end
+    100044: otso_rig_08:R_ball
+    100046: otso_rig_08:R_clavicle
+    100048: otso_rig_08:R_ear_tip
+    100050: otso_rig_08:R_hand
+    100052: otso_rig_08:R_hip
+    100054: otso_rig_08:R_knee
+    100056: otso_rig_08:R_toe_ip
+    100058: otso_rig_08:Root
+    100060: otso_rig_08:Tail
+    100062: otso_rig_08:tail_tip
+    100064: otso_rig_08:Torso1
+    100066: otso_rig_08:Torso_2
+    100068: otso_rig_08:Torso_3
+    400000: //RootNode
+    400002: otso_rig_08:Head
+    400004: otso_rig_08:Head_tip
+    400006: otso_rig_08:Jaw
+    400008: otso_rig_08:Jaw_end
+    400010: otso_rig_08:L__ear
+    400012: otso_rig_08:L_ankle
+    400014: otso_rig_08:L_arm_1
+    400016: otso_rig_08:L_arm_2
+    400018: otso_rig_08:L_arm_end
+    400020: otso_rig_08:L_ball
+    400022: otso_rig_08:L_clavicle
+    400024: otso_rig_08:L_ear_tip
+    400026: otso_rig_08:L_hand
+    400028: otso_rig_08:L_hip
+    400030: otso_rig_08:L_knee
+    400032: otso_rig_08:L_toe_ip
+    400034: otso_rig_08:R__ear
+    400036: otso_rig_08:R_ankle
+    400038: otso_rig_08:R_arm_1
+    400040: otso_rig_08:R_arm_2
+    400042: otso_rig_08:R_arm_end
+    400044: otso_rig_08:R_ball
+    400046: otso_rig_08:R_clavicle
+    400048: otso_rig_08:R_ear_tip
+    400050: otso_rig_08:R_hand
+    400052: otso_rig_08:R_hip
+    400054: otso_rig_08:R_knee
+    400056: otso_rig_08:R_toe_ip
+    400058: otso_rig_08:Root
+    400060: otso_rig_08:Tail
+    400062: otso_rig_08:tail_tip
+    400064: otso_rig_08:Torso1
+    400066: otso_rig_08:Torso_2
+    400068: otso_rig_08:Torso_3
+    7400000: HeadDownStayAnim
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: HeadDownStayAnim
+      takeName: Take 001
+      firstFrame: 32
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: otso_rig_08:Root
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:L_hip
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:L_hip/otso_rig_08:L_knee
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:L_hip/otso_rig_08:L_knee/otso_rig_08:L_ankle
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:L_hip/otso_rig_08:L_knee/otso_rig_08:L_ankle/otso_rig_08:L_ball
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:L_hip/otso_rig_08:L_knee/otso_rig_08:L_ankle/otso_rig_08:L_ball/otso_rig_08:L_toe_ip
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:R_hip
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:R_hip/otso_rig_08:R_knee
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:R_hip/otso_rig_08:R_knee/otso_rig_08:R_ankle
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:R_hip/otso_rig_08:R_knee/otso_rig_08:R_ankle/otso_rig_08:R_ball
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:R_hip/otso_rig_08:R_knee/otso_rig_08:R_ankle/otso_rig_08:R_ball/otso_rig_08:R_toe_ip
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Tail
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Tail/otso_rig_08:tail_tip
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:Head
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:Head/otso_rig_08:Head_tip
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:Head/otso_rig_08:Jaw
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:Head/otso_rig_08:Jaw/otso_rig_08:Jaw_end
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:Head/otso_rig_08:L__ear
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:Head/otso_rig_08:L__ear/otso_rig_08:L_ear_tip
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:Head/otso_rig_08:R__ear
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:Head/otso_rig_08:R__ear/otso_rig_08:R_ear_tip
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:L_clavicle
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:L_clavicle/otso_rig_08:L_arm_1
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:L_clavicle/otso_rig_08:L_arm_1/otso_rig_08:L_arm_2
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:L_clavicle/otso_rig_08:L_arm_1/otso_rig_08:L_arm_2/otso_rig_08:L_hand
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:L_clavicle/otso_rig_08:L_arm_1/otso_rig_08:L_arm_2/otso_rig_08:L_hand/otso_rig_08:L_arm_end
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:R_clavicle
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:R_clavicle/otso_rig_08:R_arm_1
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:R_clavicle/otso_rig_08:R_arm_1/otso_rig_08:R_arm_2
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:R_clavicle/otso_rig_08:R_arm_1/otso_rig_08:R_arm_2/otso_rig_08:R_hand
+        weight: 1
+      - path: otso_rig_08:Root/otso_rig_08:Torso1/otso_rig_08:Torso_2/otso_rig_08:Torso_3/otso_rig_08:R_clavicle/otso_rig_08:R_arm_1/otso_rig_08:R_arm_2/otso_rig_08:R_hand/otso_rig_08:R_arm_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
