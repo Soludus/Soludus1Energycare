@@ -8,9 +8,9 @@ Content inside `Assets/Soludus/Platform`.
 ## Energycare
 
 An AR game that utilizes the platform.  
-Content inside `Assets/Soludus`.  
+Content inside `Assets/Soludus/AR Game`.  
 Most game assets are included in this repository.  
-Sounds folder must be downloaded separately and exported to `Assets/Soludus`. [Link to Sounds folder].
+Sounds folder must be downloaded separately and exported to `Assets/Soludus/AR Game`. [Link to Sounds folder].
 
 ### Asset project sources
 
