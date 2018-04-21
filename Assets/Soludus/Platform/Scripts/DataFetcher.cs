@@ -63,6 +63,13 @@ public class DataFetcher : MonoBehaviour
     {
         yield return null;
 
+        if (string.IsNullOrEmpty(source.url))
+        {
+            error = "Datan osoitetta ei ole konfiguroitu.";
+            Debug.LogError("DataSource url not configured.");
+            yield break;
+        }
+
         WWW www;
 
         if (!string.IsNullOrEmpty(source.requestBody))

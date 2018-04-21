@@ -1,23 +1,41 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class CameraScalerScript : MonoBehaviour {
+public class CameraScalerScript : MonoBehaviour
+{
+    // 16:10
+    public float targetAspect = 16.0f / 10.0f;
 
-	// Use this for initialization
-	void Start () {
+    private float prevScreenAspect = 0;
 
-        // 16:10
-        float targetaspect = 16.0f / 10.0f;
-
+    private void Update()
+    {
         // determine the game window's current aspect ratio
-        float windowaspect = (float)Screen.width / (float)Screen.height;
+        float screenAspect = (float)Screen.width / (float)Screen.height;
 
+        if (screenAspect != prevScreenAspect)
+        {
+            ClampCameraAspect(GetComponent<Camera>(), screenAspect, targetAspect);
+        }
+
+        prevScreenAspect = screenAspect;
+    }
+
+    private void OnEnable()
+    {
+        prevScreenAspect = 0;
+    }
+
+    private void OnDisable()
+    {
+        var cam = GetComponent<Camera>();
+        if (cam != null)
+            cam.rect = new Rect(0, 0, 1, 1);
+    }
+
+    private static void ClampCameraAspect(Camera camera, float screenAspect, float targetAspect)
+    {
         // current viewport height should be scaled by this amount
-        float scaleheight = windowaspect / targetaspect;
-
-        // obtain camera component so we can modify its viewport
-        Camera camera = GetComponent<Camera>();
+        float scaleheight = screenAspect / targetAspect;
 
         if (scaleheight < 1.0f)
         {

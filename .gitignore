@@ -35,7 +35,18 @@ sysinfo.txt
 *.unitypackage
 
 # Vuforia
+/Assets/Vuforia*
+/Assets/Resources/Vuforia*
+/Assets/Editor/Vuforia*
+/Assets/Models/Vuforia*
+/Assets/StreamingAssets/Vuforia*
 /QCAR/
+
+# these 4 ignores can be removed if something is added to the folders
+/Assets/Resources.meta
+/Assets/Editor.meta
+/Assets/Models.meta
+/Assets/StreamingAssets.meta
 
 # Audio
 Assets/Soludus/AR Game/Sounds/**/*.mp3
