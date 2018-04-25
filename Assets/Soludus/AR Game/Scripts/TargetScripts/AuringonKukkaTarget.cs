@@ -97,7 +97,7 @@ public class AuringonKukkaTarget : BaseTargetScript
             bugGameDuration -= Time.deltaTime;
             if (bugGameDuration < 0)
                 bugGameDuration = 0;
-            Debug.Log(bugGameDuration);
+            //Debug.Log(bugGameDuration);
         }
     }
 
@@ -308,7 +308,7 @@ public class AuringonKukkaTarget : BaseTargetScript
         {
             GameObject.Find("MusicManager").GetComponent<MusicManager>().PlayMusicClip(28, true);
 
-            Debug.Log("targetissa: " + questState + " " + screenshotTaken);
+            //Debug.Log("targetissa: " + questState + " " + screenshotTaken);
 
             if (screenshotTaken == false || completed == true)
             {

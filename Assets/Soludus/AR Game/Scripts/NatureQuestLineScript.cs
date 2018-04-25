@@ -175,6 +175,7 @@ public class NatureQuestLineScript : MonoBehaviour {
 
             replayDialog.SetActive(false);
 
+            questSelectionCanvas.GetComponent<QuestSelectionScript>().questLineSelected = 0;
             questSelectionCanvas.SetActive(true);
 
             //GameObject.Find("ARTargets").GetComponent<ImageTargetManagerScript>().ActivateImageTargets(false, false, false, true, true, true, false, false, false, false, false, false);

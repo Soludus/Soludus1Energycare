@@ -10,7 +10,6 @@ public class KatkaisijaTargetScript : BaseTargetScript
     private bool completed;
     private bool showNatureOnce;
     private bool switchingIsActive;
-    private bool lampsAreOff;
 
     [Header("Lights")]
     public GameObject[] lightSwitches;
@@ -191,8 +190,6 @@ public class KatkaisijaTargetScript : BaseTargetScript
                 SetLightState(i, true);
             }
 
-            lampsAreOff = false;
-
             completed = false;
             inputOn = true;
 
@@ -260,7 +257,6 @@ public class KatkaisijaTargetScript : BaseTargetScript
         yield return new WaitForSeconds(1f);
         bear.transform.LookAt(new Vector3(Camera.main.transform.position.x, bear.transform.position.y, Camera.main.transform.position.z));
 
-        lampsAreOff = true;
         completed = true;
         engine.IncrementScore(1);
 

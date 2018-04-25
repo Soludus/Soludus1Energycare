@@ -90,7 +90,7 @@ public class BugChaseScript : MonoBehaviour
 	// spawns a single bug
 	public void SpawnSingleBug ()
 	{
-		Debug.Log ("spawning single bug");
+		//Debug.Log ("spawning single bug");
 		GameObject randomedSpawn = RandomSpawnPosition ();
 		while (randomedSpawn == null) {
 			//Debug.Log ("lets random new spawn since its still null!");
@@ -111,7 +111,7 @@ public class BugChaseScript : MonoBehaviour
 		GameObject randomedDir;
 
 		if (amountOfBugs == 2) {
-			Debug.Log ("spawning multiple bugs, amountOfBugs: " + amountOfBugs);
+			//Debug.Log ("spawning multiple bugs, amountOfBugs: " + amountOfBugs);
 			for (int i = 0; i < amountOfBugs; i++) {
 				randomedSpawn = RandomSpawnPosition ();
 				while (randomedSpawn == null) {
@@ -123,7 +123,7 @@ public class BugChaseScript : MonoBehaviour
 			}
 
 		} else {
-			Debug.Log ("spawning multiple bugs, amountOfBugs: " + amountOfBugs);
+			//Debug.Log ("spawning multiple bugs, amountOfBugs: " + amountOfBugs);
 			for (int i = 0; i < amountOfBugs; i++) {
 				randomedSpawn = RandomSpawnPosition ();
 				while (randomedSpawn == null) {

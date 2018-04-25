@@ -169,6 +169,7 @@ public class SocialQuestLineScript : MonoBehaviour {
 
             replayDialog.SetActive(false);
 
+            questSelectionCanvas.GetComponent<QuestSelectionScript>().questLineSelected = 0;
             questSelectionCanvas.SetActive(true);
 
             ambience.Stop();
