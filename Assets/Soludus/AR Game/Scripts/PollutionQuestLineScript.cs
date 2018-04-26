@@ -181,22 +181,8 @@ public class PollutionQuestLineScript : MonoBehaviour {
         localFairySpeechBubble.SetActive(true);
         localFairySpeechBubble.transform.GetChild(0).GetChild(0).GetComponent<Text>().text = inputText;
 
-        yield return StartCoroutine(WaitForInput(waitTime));
+        yield return StartCoroutine(tss.WaitForInput(waitTime));
 
         localFairySpeechBubble.SetActive(false);
-    }
-
-    IEnumerator WaitForInput(float waitTime)
-    {
-        tss.allowInput = false;
-        yield return new WaitForSeconds(waitTime);
-        tss.allowInput = true;
-
-        while (!tss.touchScreenTouched)
-        {
-            yield return null;
-        }
-        tss.touchScreenTouched = false;
-        tss.allowInput = false;
     }
 }

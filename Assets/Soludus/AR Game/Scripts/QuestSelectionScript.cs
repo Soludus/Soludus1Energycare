@@ -167,22 +167,8 @@ public class QuestSelectionScript : MonoBehaviour
         localFairySpeechBubble.SetActive(true);
         localFairySpeechBubble.transform.GetChild(0).GetChild(0).GetComponent<Text>().text = inputText;
 
-        yield return StartCoroutine(WaitForInput());
+        yield return StartCoroutine(tss.WaitForInput(1));
 
         localFairySpeechBubble.SetActive(false);
-    }
-
-    private IEnumerator WaitForInput()
-    {
-        tss.allowInput = false;
-        yield return new WaitForSeconds(1f);
-        tss.allowInput = true;
-
-        while (!tss.touchScreenTouched)
-        {
-            yield return null;
-        }
-        tss.touchScreenTouched = false;
-        tss.allowInput = false;
     }
 }

@@ -1,46 +1,44 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TouchScreenScript : MonoBehaviour
 {
-    public Camera localCam;
     public bool allowInput;
-    public int layermask;
+    [Header("Raycast")]
+    public string hitObjectName = "TouchPanel";
+    public Camera raycastCam;
+    public LayerMask layerMask = -1;
 
-    public bool touchScreenTouched;
+    internal bool touchScreenTouched;
 
-    void Awake()
+    private void Awake()
     {
-        allowInput = false;
         touchScreenTouched = false;
     }
 
-    void Update()
+    private void Update()
     {
         Vector3 inputVector = Vector3.zero;
         for (int i = 0; i < Input.touchCount; i++)
         {
             if (Input.GetTouch(i).phase == TouchPhase.Began)
             {
-                GetInputPos(Input.GetTouch(i).position);
+                UpdateTouchState(Input.GetTouch(i).position);
                 return;
             }
         }
 
-        //if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
-
         if (Input.GetMouseButtonDown(0))
         {
-            GetInputPos(Input.mousePosition);
+            UpdateTouchState(Input.mousePosition);
         }
-        //    inputVector = Input.mousePosition;
     }
 
-    public IEnumerator WaitForInput(float waitTime)
+    public IEnumerator WaitForInput(float delay)
     {
+        touchScreenTouched = false;
         allowInput = false;
-        yield return new WaitForSeconds(waitTime);
+        yield return new WaitForSeconds(delay);
         allowInput = true;
 
         while (!touchScreenTouched)
@@ -72,15 +70,14 @@ public class TouchScreenScript : MonoBehaviour
         return false;
     }
 
-    void GetInputPos(Vector3 inputVector)
+    private void UpdateTouchState(Vector3 inputVector)
     {
-        Ray ray = localCam.ScreenPointToRay(inputVector);
+        Ray ray = raycastCam.ScreenPointToRay(inputVector);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity, 1 << 10))
+        if (allowInput && Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity, layerMask))
         {
-
-            if (hit.collider.gameObject.name == "TouchPanel" && allowInput)
+            if (hit.collider.gameObject.name == hitObjectName)
             {
                 //Debug.Log("TouchPanel touched!");
                 touchScreenTouched = true;
